@@ -1,11 +1,9 @@
 # 🏠 House Price Prediction
 
-This project predicts house prices using Machine Learning.
+A Machine Learning project that predicts house prices based on various features using regression techniques.
 
 ## 📌 Project Overview
-- Built a regression model to predict house prices
-- Performed data cleaning and preprocessing
-- Applied feature engineering and visualization
+This project focuses on building a predictive model to estimate house prices. It includes data preprocessing, visualization, and model training.
 
 ## 🛠️ Tech Stack
 - Python
@@ -16,16 +14,37 @@ This project predicts house prices using Machine Learning.
 
 ## 📊 Workflow
 1. Data Collection
-2. Data Cleaning
-3. Exploratory Data Analysis
+2. Data Cleaning & Preprocessing
+3. Exploratory Data Analysis (EDA)
 4. Feature Engineering
 5. Model Training
-6. Evaluation
+6. Model Evaluation
 
 ## 📈 Model
-- Algorithm: Linear Regression / (your model)
-- Accuracy: (add your score here)
+- Algorithm Used: Linear Regression (or your model)
+- Evaluation Metric: R² Score
+- Performance: (Add your score here)
 
 ## ▶️ How to Run
 ```bash
 python main.py
+
+📷 Visualizations
+- Correlation Heatmap
+- Boxplots (Before & After Outliers)
+- Histograms
+
+📁 Project Structure
+house_price_prediction/ 
+│ 
+├── data/ 
+├── src/ 
+├── main.py 
+├── README.md 
+└── .gitignore
+
+🚀 Future Improvements
+- Model deployment(Flask/Streamlit)
+- Add more features
+
+⭐ If you like this project, give it a star!
